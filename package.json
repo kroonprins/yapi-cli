@@ -1,0 +1,39 @@
+{
+  "name": "YAPI_cli",
+  "version": "1.0.0",
+  "description": "Node version of https://github.com/Backbase/mosaic-tool-yapi so that it can be ran as a command line tool",
+  "keywords": [
+    "YAPI"
+  ],
+  "author": {
+    "name": "tobias",
+    "email": "",
+    "url": ""
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "dependencies": {
+    "colors": "^1.1.2",
+    "commander": "^2.9.0",
+    "file-api": "^0.10.4",
+    "fs": "0.0.2",
+    "glob": "^7.0.5",
+    "jquery": "^3.1.0",
+    "jsdom": "^9.4.1",
+    "pad": "^1.0.0",
+    "q": "^1.4.1",
+    "sync-request": "^3.0.1",
+    "xmldom": "^0.1.22",
+    "xmlhttprequest": "^1.8.0"
+  },
+  "devDependencies": {},
+  "bundleDependencies": [],
+  "private": true,
+  "main": "index.js",
+  "scripts": {},
+  "bin": {
+    "yapi": "./index.js"
+  }
+}
